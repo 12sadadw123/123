@@ -289,7 +289,7 @@ body.no-scroll {
   text-align: center;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 350px) {
   .btn__inner {
     height: 100vh;
   }
