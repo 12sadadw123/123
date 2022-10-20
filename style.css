@@ -257,7 +257,7 @@ body.no-scroll {
 }
 .modal__dialoge {
   /* width: 100%; */
-  max-width: 700px;
+  max-width: 800px;
   margin: auto;
   background-color: white;
   position: relative;
@@ -289,12 +289,20 @@ body.no-scroll {
   padding: 5rem 1rem;
   text-align: center;
 }
-img {
-  max-width: 550px;
-}
 
 @media (max-width: 500px) {
   .title {
     font-size: 1.4rem;
+  }
+  img {
+    max-width: 360px;
+  }
+  .modal__dialoge {
+    max-width: 450px;
+  }
+  .btn-a {
+    font-size: 10px;
+    padding: 1.05em 1.8em;
+    margin-bottom: 10px;
   }
 }
