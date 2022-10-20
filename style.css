@@ -132,6 +132,7 @@ body.no-scroll {
 .btn__inner {
   display: flex;
   flex-wrap: wrap;
+
   /* height: 100vh; */
   /* margin: 0 -1rem 2.8rem; */
 }
@@ -289,12 +290,8 @@ body.no-scroll {
   text-align: center;
 }
 
-@media (max-width: 360px) {
-  .btn__inner {
-    height: 100vh;
-    margin: 0 auto;
-  }
-  .btn {
-    font-size: 1.25rem;
+@media (max-width: 500px) {
+  .title {
+    font-size: 1.4rem;
   }
 }
