@@ -288,3 +288,15 @@ body.no-scroll {
   padding: 5rem 1rem;
   text-align: center;
 }
+
+@media screen and (max-width: 834px) {
+  .btn__inner {
+    height: 100vh;
+  }
+  .btn {
+    font-size: 1.25rem;
+  }
+  .footer {
+    position: fixed;
+  }
+}
