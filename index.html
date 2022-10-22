@@ -8,7 +8,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   </head>
   <body>
-    <div class="full">
       <header class="header">
         <div class="container">
           <div class="header__inner">
@@ -30,7 +29,19 @@
         <div class="works">
           <div class="container">
             <div class="works__nav">
-              <h1 class="works__nav-link">Tasks</h1>
+              <div class="works__nav-link">
+                <div class="works__nav__title">ОҚУ ӘДІСТЕМЕЛІК КЕШЕН
+                УЧЕБНО-МЕТОДИЧЕСКИЙ КОМПЛЕКС ПО ПРОФЕССИОНАЛЬ-НОМУ МОДУЛЮ
+                <br>
+                НМ 01«Кәсіптік қызмет аясында кәсіптік лексиканы қолдану»
+                БМ 01«Применение профессиональной лексики в сфере профес-сиональной деятельности
+              </div>
+                <div class="content__btn">
+                  <button type="button" class="btn-b" data-modal="#introdaction">introdaction</button>
+                  <button type="button" class="btn-b" data-modal="#content">content</button>
+                  <button type="button" class="btn-b" data-modal="#conclusion">Conclusion</button>
+                </div>
+            </div>
             </div>
             <div class="btn__inner">
               <div class="btn__col">
@@ -226,8 +237,36 @@
           </div>
         </div>
       </div>
-    </div>
     <!-- modal -->
+    <div class="modal" id="introdaction">
+    <div class="modal__dialoge">
+      <button type="button" class="modal__close" data-close></button>
+      <div class="modal__content">
+        <img src="intro/introdaction.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="content">
+    <div class="modal__dialoge">
+      <button type="button" class="modal__close" data-close></button>
+      <div class="modal__content">
+        <img src="intro/content.1.jpg" alt="" />
+        <img src="intro/content.2.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="conclusion">
+    <div class="modal__dialoge">
+      <button type="button" class="modal__close" data-close></button>
+      <div class="modal__content">
+        <img src="intro/Conclusion.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+
+<!-- intro -->
     <div class="modal" id="lesson_1">
       <div class="modal__dialoge">
         <button type="button" class="modal__close" data-close></button>
