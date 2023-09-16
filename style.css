@@ -258,8 +258,9 @@ body.no-scroll {
 }
 .modal__a {
   text-align: left;
-  margin-left: 10rem;
+  /* margin-left: 10rem; */
   margin-bottom: 2rem;
+  display: inline-block;
 }
 .btn-a + .btn-a {
   margin-left: 2rem;
